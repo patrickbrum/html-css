@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            @import url();
+
+           font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+           /*
+           Medidas Absolutas
+           cm, mm, in(polegada), px, pt, pc
+
+           Medidas Relativas
+           em(relativo ao M maiusculo), ex(relativo ao X minusculo), rem, vw, vh, %
+
+           16px geralmente = 1em
+           */
+           font-size: 1.5em ;
+        }
+
+        h1 {
+
+           /* shor font
+           - font-style -> font-weight -> font-size -> font-family
+
+           font-family: 'Work Sans', sans-serif;
+           font-weight: bolder;
+           font-size: 3em;
+           font-style: italic;
+           */
+           font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis beatae deserunt excepturi enim delectus? Dolor ex eius non corporis, magnam est sequi suscipit porro, similique aliquid pariatur ratione, tenetur sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi? Obcaecati vitae quidem, repellat iste non ad! Quibusdam excepturi minima, in ipsa itaque suscipit est dolorum unde incidunt obcaecati deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores fugiat quisquam temporibus nulla officiis sint commodi, ut sapiente tempora? Blanditiis minus necessitatibus corrupti laborum eius fugiat non dolorum quas maxime.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore fugiat animi veniam facere ex unde assumenda dolorum magnam, deserunt, recusandae vitae in officiis a dolore atque, delectus rerum quod quibusdam?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt voluptatibus totam non numquam delectus harum pariatur perferendis molestias sit! Doloremque voluptate iure explicabo tempore iste, labore laboriosam. Delectus, iusto tempora.</p>
+</body>
+</html>
